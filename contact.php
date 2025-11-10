@@ -1,0 +1,64 @@
+<div class="row">
+
+                    <div class="column lg-6 tab-12">
+
+                        <h3 class="u-add-bottom">Form Styles</h3>
+
+                        <form>
+                            <div>
+                                <label for="sampleInput">Your email</label>
+                                <input class="u-fullwidth" type="email" placeholder="test@mailbox.com" id="sampleInput">
+                            </div>
+                            <div>
+                                <label for="sampleRecipientInput">Reason for contacting</label>
+                                <div class="ss-custom-select">
+                                    <select class="u-fullwidth" id="sampleRecipientInput">
+                                        <option value="Option 1">Questions</option>
+                                        <option value="Option 2">Report</option>
+                                        <option value="Option 3">Others</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <label for="exampleMessage">Message</label>
+                            <textarea class="u-fullwidth" placeholder="Your message" id="exampleMessage"></textarea>
+
+                            <label class="u-add-bottom">
+                                <input type="checkbox">
+                                <span class="label-text">Send a copy to yourself</span>
+                            </label>
+                        
+                            <input class="btn--primary u-fullwidth" type="submit" value="Submit">
+                        </form>
+
+                    </div>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h3>Alert Boxes</h3>
+
+                        <br>
+                        
+                        <div class="alert-box alert-box--error">
+                            <p>Error Message. Your Message Goes Here.</p>
+                            <span class="alert-box__close"></span>
+                        </div><!-- end error -->
+                                
+                        <div class="alert-box alert-box--success">
+                            <p>Success Message. Your Message Goes Here.</p>
+                            <span class="alert-box__close"></span>
+                        </div><!-- end success -->
+                                
+                        <div class="alert-box alert-box--info">
+                            <p>Info Message. Your Message Goes Here.</p>
+                            <span class="alert-box__close"></span>
+                        </div><!-- end info -->
+                                
+                        <div class="alert-box alert-box--notice">
+                            <p>Notice Message. Your Message Goes Here.</p>
+                            <span class="alert-box__close"></span>
+                        </div><!-- end notice -->
+                    
+                    </div>
+
+                </div> <!-- end row -->
