@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - NANE EXPERIENCE C.B.O</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
+    
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+    
+
+        <!-- # site header 
+        ================================================== -->
+        
+        <?php include ('includes/header.php') ?>
+       <!-- end s-header -->
+
+
+        <!-- # site-content
+        ================================================== -->
+        <section id="content" class="s-content">
+
+
+            <!-- intro
+            ----------------------------------------------- -->
+             <section id="intro" class="s-intro target-section">
+
+                <div class="s-intro__bg"></div>
+
+                <div class="rows-intro__content">
+
+                    <div class="s-intro__content-bg"></div>
+
+           
+
+                <div class="s-intro__scroll-down">
+                    <a href="#about">
+                        <span>Scroll Down</span>
+                    </a>
+                </div> <!-- s-intro__scroll-down -->
+
+                
+
+            </section> <!-- end s-intro -->
+
+            <!-- portfolio
+            ----------------------------------------------- -->
+           <section id="folio" class="s-folio target-section">
+
+                <div class="row section-header light-on-dark">
+                    <h3 class="column lg-12 section-header__pretitle">PROGRAMS</h3>
+                     <div class="column lg-6 stack-on-1100 section-header__secondary">
+                             <div class="entry__info">
+                                        <div class="entry__cat"><h1>Girls/Women Empowerment</h1></div>
+                                    </div>
+                        <p class="desc">
+                            We believe in the power of women and girls to shape their own destinies. Our empowerment program focuses on providing essential knowledge and resources to navigate the challenges of adolescence and womanhood. We conduct vital workshops on menstrual hygiene, reproductive health, and the prevention of early pregnancies and marriages. We extend our reach beyond classrooms, visiting schools to distribute sanitary pads and conducting door-to-door outreach to support women and girls in need.     
+                        </p>
+                    </div>
+                    <div class="column lg-6 stack-on-1100 section-header__secondary">
+                          <article class="brick entry">
+                                <a href="#modal-03" class="entry__link">
+                                    <div class="entry__thumb">
+                                        <img src="images/lib/29nane.jpg" alt="">
+                                    </div>
+                               
+                                </a>
+                            </article> <!-- entry -->
+                    </div>
+                </div> <!-- end section-header -->
+                                <hr class = "hl">
+                  <div class="row section-header light-on-dark">
+                       <div class="column lg-6 stack-on-1100 section-header__secondary">
+                          <article class="brick entry">
+                                <a href="#modal-03" class="entry__link">
+                                    <div class="entry__thumb">
+                                       <img src="images/girls/education-1.jpg" alt="">
+                                    </div>
+                                   
+                                </a>
+                            </article> <!-- entry -->
+                    </div>
+
+                     <div class="column lg-6 stack-on-1100 section-header__secondary">
+                         <div class="entry__info">
+                                        <div class="entry__cat"><h1>Education</h1></div>
+                                    </div>
+                        <p class="desc">
+                            Education is the cornerstone of progress. Our scholarship program provides a lifeline to vulnerable children in Kibera, ensuring they have access to quality education. We cover school fees and provide all necessary learning materials, empowering these children to break the cycle of poverty and build a brighter future.
+                        </p>
+                    </div>
+                 
+                </div> <!-- end section-header -->
+
+                <hr class = "hl">
+
+                  <div class="row section-header light-on-dark">
+                     <div class="column lg-6 stack-on-1100 section-header__secondary">
+
+                      <div class="entry__info">
+                                        <div class="entry__cat">
+                                            <h1>
+                                            Community Library/Hub
+                                        </h1>
+                                    </div>
+                                    </div>
+
+                        <p class="desc">
+                            Our community library and hub serves as a safe and enriching space for children. Equipped with a comprehensive collection of textbooks from primary to secondary levels, the hub provides a conducive environment for learning and academic support. Our dedicated volunteers offer free homework assistance, fostering a love for learning and empowering children to excel in their studies.
+                        </p>
+                    </div>
+                    <div class="column lg-6 stack-on-1100 section-header__secondary">
+                          <article class="brick entry">
+                                <a href="#modal-03" class="entry__link">
+                                    <div class="entry__thumb">
+                                       <img src="images/girls/street-fam.jpg" alt="">
+                                    </div>
+                                   
+                                </a>
+                            </article> <!-- entry -->
+                    </div>
+                </div> <!-- end section-header -->
+
+                <hr class = "hl">
+
+                  <div class="row section-header light-on-dark">
+                       <div class="column lg-6 stack-on-1100 section-header__secondary">
+                          <article class="brick entry">
+                             
+                                <a href="#modal-03" class="entry__link">
+                                    <div class="entry__thumb">
+                                       <img src="images/lib/29nane.jpg" alt="">
+                                    </div>
+                                  
+                                </a>
+                            </article> <!-- entry -->
+                    </div>
+                    
+
+                     <div class="column lg-6 stack-on-1100 section-header__secondary">
+
+                      <div class="entry__info">
+                                        <div class="entry__cat"><h1>Feeding Program for Children and Street Families</h1></div>
+                                    </div>
+                       
+                        <p class="desc">
+                            Recognizing the urgent need for food security, we conduct monthly feeding programs for street families and children in Kibera. Beyond providing nourishment, these programs serve as an opportunity to share love, offer words of encouragement, and instill hope in the lives of those facing hardship.
+                        </p>
+                    </div>
+
+                
+                 
+                </div> <!-- end section-header -->  <div class="row section-header light-on-dark">
+                    
+                    
+                     <div class="column lg-6 stack-on-1100 section-header__secondary">
+
+                      <div class="entry__info">
+                                        <div class="entry__cat"><h1>Youth Program</h1></div>
+                                    </div>
+
+
+                        <p class="desc">
+                            We are dedicated to nurturing the potential of Kibera's youth. Our youth program provides a platform for open dialogue and support, addressing critical issues such as mental wellbeing, crime prevention, and drug abuse. Through engaging discussions and mentorship, we empower young people to make informed choices and build resilient lives.
+                        </p>
+                    </div>
+                    <div class="column lg-6 stack-on-1100 section-header__secondary">
+                          <article class="brick entry">
+                                <a href="#modal-03" class="entry__link">
+                                    <div class="entry__thumb">
+                                       <img src="images/lib/29nane.jpg" alt="">
+                                    </div>
+                                
+                                </a>
+                            </article> <!-- entry -->
+                    </div>
+                </div> <!-- end section-header -->
+
+                <hr class = "hl">
+
+                  <div class="row section-header light-on-dark">
+                       <div class="column lg-6 stack-on-1100 section-header__secondary">
+                          <article class="brick entry">
+                                <a href="#modal-03" class="entry__link">
+                                    <div class="entry__thumb">
+                                       <img src="images/lib/29nane.jpg" alt="">
+                                    </div>
+                                 
+                                </a>
+                            </article> <!-- entry -->
+                    </div>
+
+                     <div class="column lg-6 stack-on-1100 section-header__secondary">
+                        <div class="entry__info">
+                                        <div class="entry__cat"><h1>Art Program</h1></div>
+                                    </div>
+                        <p class="desc">
+                        We believe in the transformative power of art. Our art program identifies and nurtures creative talent within the community. We provide a platform for artists to develop their skills, create compelling content, and express themselves freely, contributing to the vibrant cultural landscape of Kibera.                       
+                     </p>
+                    </div>
+                 
+                </div> <!-- end section-header -->
+
+                  <hr class = "hl">
+
+                 <div class="s-clients row">
+                    <div class="column lg-12">
+
+                        <div class="row section-header">
+                            <div class="column lg-12">
+                                <h3 class="title text-display-1">Partners we have had priveledge to work or collaborate with</h3>
+                            </div>
+                        </div> <!-- end section-header -->
+    
+                        <div class="row clients-list block-lg-one-fourth block-md-one-third block-tab-one-half block-stack">
+    
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    Nico Mallol - AMBASSADOR
+                                </a>
+                            </div>
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    .
+                                </a>
+                            </div>
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                  .
+                                </a>
+                            </div>
+                        
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    KINGS AND QUEENS OF KIBERA - PARTNER
+                                </a>
+                            </div>
+
+                        </div> <!-- clients-list -->
+                    </div> <!-- end column lg-12 -->
+                </div> 
+
+        </section>  <!-- end content -->
+
+
+        <!-- # site-footer
+        ================================================== -->
+
+        <?php include ('includes/footer.php') ?>
+       <!-- end footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
