@@ -656,6 +656,7 @@ textarea {
     display : block;
     flex    : 1 1 0%;
     padding : 10px;
+	padding-top: 10px;
 }
 
 .collapse>.column,
@@ -1405,8 +1406,8 @@ h6,
 
 h1,
 .h1 {
-    margin-top    : 10px;
-    margin-bottom : 10px;
+     margin-top    : var(--vspace-2);
+     margin-top    : var(--vspace-2);
 }
 
 h2,
@@ -1445,7 +1446,7 @@ h1,
 
 h2,
 .h2 {
-    font-size      : var(--text-xxl);
+    font-size      : var(--text-xl);
     line-height    : calc(1.375 * var(--space));
     letter-spacing : -.015em;
 }
