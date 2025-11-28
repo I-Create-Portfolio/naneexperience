@@ -1,3 +1,103 @@
+@mainColor: #48cfad;
+@mainHover: #37bc9b;
+@secondaryColor: #3a3a3a;
+@secondaryHover: #333;
+
+body {
+  background: #f7f7f7 url("https://38.media.tumblr.com/c026c2203f47be8d0f3fb81f6c5aee25/tumblr_n2hutxfrNr1tubinno1_1280.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto";
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &::before {
+    content: '';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #e74c3c; /* IE Fallback */
+    background: rgba(67,74,84,.8);
+    width: 100%;
+    height: 100%;
+  }
+}
+
+nav {
+  position: absolute;
+  width: 480px;
+  top: 50%;
+  left: 50%;
+  margin: -23px 0 0 -240px;
+  & ul {
+    background: @mainColor;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    & li {
+      position: relative;
+      display: inline-block;
+      margin-right: -4px;
+      text-align: center;
+      &:first-child a {
+        background: @mainHover;
+        width: 49px;
+        padding: 15px 0;
+      }
+      &:last-child {
+        margin: 0;
+      }
+      & a {
+        display: block;
+        background: @mainColor;
+        padding: 15px 20px;
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+        transition: 0.2s linear;
+        &:hover {
+          background: @mainHover;
+        }
+      }
+      & ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 240px;
+        border-bottom: 4px solid @mainColor;
+        & li {
+          display: block;
+          width: 100%;
+          margin: 0;
+          text-align: left;
+          & a {
+            display: block;
+            background: @secondaryColor;
+            padding: 10px 15px;
+            &:first-child {
+              background: @secondaryColor;
+              width: auto;
+              border-left: 4px solid transparent;
+              padding: 10px 15px;
+              font-size: 14px;
+            }
+            &:hover {
+              background: @secondaryHover;
+              border-left: 4px solid @mainColor;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
 @charset "UTF-8";
 /* =================================================================== 
  * Mueller Main Stylesheet
