@@ -329,7 +329,7 @@ html {
 
 .logo-title {
    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    color: golden;
+    color: white;
     	position: relative;
 	cursor: pointer;
 	height: var(--size);
